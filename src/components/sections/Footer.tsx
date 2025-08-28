@@ -40,11 +40,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 items-center">
           {/* Logo & Brand */}
           <div className="text-center md:text-left">
-            <img 
-              src="/lovable-uploads/fd9504f3-040d-4614-8eb3-570adc064036.png" 
-              alt="Next Level Wealth TV Logo" 
-              className="w-16 h-16 mx-auto md:mx-0 mb-4"
-            />
+            <div className="relative w-16 h-16 mx-auto md:mx-0 mb-4">
+              <div className="absolute inset-0 bg-gradient-cosmic rounded-full blur-sm opacity-20"></div>
+              <img 
+                src="/lovable-uploads/fd9504f3-040d-4614-8eb3-570adc064036.png" 
+                alt="Next Level Wealth TV Logo" 
+                className="relative z-10 w-full h-full drop-shadow-[0_0_10px_hsl(var(--primary)/0.4)]"
+              />
+            </div>
             <h3 className="text-xl font-display font-bold text-foreground mb-2">
               NEXT LEVEL WEALTH TV
             </h3>
