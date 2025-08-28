@@ -15,14 +15,9 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         {/* Logo */}
         <div className="mb-8 animate-fade-in">
-          <div className="relative w-32 h-32 mx-auto mb-6">
-            <div className="absolute inset-0 bg-gradient-cosmic rounded-full blur-lg opacity-30 animate-pulse"></div>
-            <img 
-              src="/lovable-uploads/fd9504f3-040d-4614-8eb3-570adc064036.png" 
-              alt="Next Level Wealth TV Logo" 
-              className="relative z-10 w-full h-full drop-shadow-[0_0_20px_hsl(var(--primary)/0.6)] animate-pulse-glow"
-            />
-          </div>
+          <h2 className="font-cursive text-blue-900 text-xl mb-6">
+            Next Level Wealth TV
+          </h2>
         </div>
 
         {/* Main Headline */}
