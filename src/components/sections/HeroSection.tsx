@@ -45,8 +45,8 @@ const HeroSection = () => {
           </p>
         </div>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
+        {/* CTA Button */}
+        <div className="flex justify-center items-center mb-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
           <Button 
             size="lg" 
             variant="hero"
@@ -59,19 +59,6 @@ const HeroSection = () => {
             <Sparkles className="w-5 h-5 mr-2" />
             Start Your AI Journey
             <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
-          
-          <Button 
-            size="lg" 
-            variant="glow"
-            className="text-lg px-8 py-6 h-auto rounded-xl"
-            onClick={() => {
-              // This will link to YouTube channel
-              window.open('https://youtube.com', '_blank');
-            }}
-          >
-            <Play className="w-5 h-5 mr-2" />
-            Watch Our Teachings
           </Button>
         </div>
 
